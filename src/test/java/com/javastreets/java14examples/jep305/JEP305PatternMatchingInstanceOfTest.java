@@ -47,8 +47,8 @@ class JEP305PatternMatchingInstanceOfTest {
 
   @Test
   void greetingMessage14VirtualOnly() {
-    Namaste nm = new Namaste();
-    Assertions.assertEquals(JEP305PatternMatchingInstanceOf.greetingMessage14VirtualOnly(nm),
+    PhysicalHandshake phs = new PhysicalHandshake();
+    Assertions.assertEquals(JEP305PatternMatchingInstanceOf.greetingMessage14VirtualOnly(phs),
         "Virtual greet is always safe!");
   }
 }
